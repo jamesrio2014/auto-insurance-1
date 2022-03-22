@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="rntheader__logov3">
             <a style="color:#000;font-size:38px;" class="navbar-brand" href="https://track.trackingabc.com/click">
-                Cope<strong style="color:#086e49;">Auto</strong>
+                Auto<strong style="color:#086e49;">InsuranceTips</strong>
             </a>
         </div>
     </nav>
@@ -267,7 +267,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-12 mb-3 text-center">
                     <div class="rntfooter__logov4 text-left">
                        <a style="color:#000;font-size:20px;" class="navbar-brand" href="https://track.trackingabc.com/click">
-                Cope<strong style="color:#086e49;">Auto</strong>
+                Auto<strong style="color:#086e49;">InsuranceTips</strong>
             </a>
                     </div>
                 </div>
