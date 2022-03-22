@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <title>Error Page | www.Cheapest-Auto-Insurance.com</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="rntheader">
+    <div class="container">
+        <div class="row">
+            <div class="rntheader__logo">
+                <a class="navbar-brand" href="/">
+                    <img src="../fonts/logo-CAI.svg" alt="Cheapest-Auto-Insurance.com">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+    <section id="rntError">
+        <section class="rntHeroImage rntbanner"></section>
+    </section>
+    <footer class="rntfooter">
+    <div class="container">
+        <div class="row">
+            <div class="row" id="rntlist__footerList">
+                <div class="rntfooter__menu column col-12">
+                    <a href="/about-us/" class="rntfooter__menu--item">About Us</a>
+                    <a href="/contact-us/" class="rntfooter__menu--item">Contact Us</a>
+                </div>
+                <div class="rntfooter__menu column col-12">
+                    <a href="/privacy-policy/" class="rntfooter__menu--item">Privacy Policy</a>
+                    <a href="/terms-and-conditions/" class="rntfooter__menu--item">Terms & Conditions</a>
+                    <a href="/privacy-policy/#information-we-collect-and-how" class="rntfooter__menu--item">CA NOTICE AT COLLECTION</a>
+                </div>
+                <div class="rntfooter__menu column col-12">
+                    <a href="/privacy-policy/#online-advertising-and-tracking-and-opt-outs" class="rntfooter__menu--item">ONLINE ADVERTISING & TRACKING</a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 mb-4">
+            <div class="rntfooter__logo column col-6 text-left">
+                <a class="navbar-brand" href="/">
+                    <img src="../fonts/logo-CAI.svg" alt="Cheapest-Auto-Insurance.com">
+                </a>
+            </div>               
+            <div class="rntfooter__copyright mt-3 column col-6 text-right">2022 © All Rights Reserved</div>
+        </div>    
+    </div>
+</footer>
+    <!-- Section Script-->
+    <script src="../js/pages.min.js"></script>
+    <script>
+        window.onload = function () {
+            window.setTimeout(function () {
+                if(!!window.location.search)
+                    location.href = "/" + window.location.search + "&msg_status=from_redirect_ep";
+                else
+                    location.href = "/?msg_status=from_redirect_ep";
+            }, 5000);
+        };
+    </script>
+    <!-- End Section Script-->
+    <!-- Section Global Script-->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K4BH9LZ');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="../ns.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<!-- End Section Global Script-->
+
+</body>
+</html>
